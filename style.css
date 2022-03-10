@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fps {
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate3d(-50%, -50%, 0) scale(5);
+    image-rendering: pixelated;
+}
