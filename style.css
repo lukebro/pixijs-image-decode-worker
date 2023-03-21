@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font: 16px/1.5 sans-serif;
 }
 
 .fps {
@@ -15,3 +16,18 @@ body {
     transform: translate3d(-50%, -50%, 0) scale(5);
     image-rendering: pixelated;
 }
+
+#controls {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: .5rem .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background: #fff;
+    border-radius: 5px;
+}
+
